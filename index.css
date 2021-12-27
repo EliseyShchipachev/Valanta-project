@@ -1,0 +1,1337 @@
+@media screen and (device-width: 1400px) {
+  div {min-width: 980px;}
+ }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+max-width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.top-menu{
+display: flex;
+font-family: Montserrat;
+width: 100%;
+padding-left: 100px;
+}
+.header{
+width: 100%;
+}
+.language{
+font-weight: 400;
+}
+.maistra-online1{
+background-color:gainsboro;
+width: 180px;
+height: 55px;
+text-align: center;
+font-weight: 600;
+margin-top: 15px;
+}
+.maistra-online2{
+display:flex;
+justify-content: center;
+align-items: center;
+width: 60px;
+height: 55px;
+background-color: rgb(182, 52, 52);
+margin-top: 15px;
+margin-right: 20px;
+}
+.tours-online1{
+background-color:gainsboro;
+width: 180px;
+height: 55px;
+text-align: center;
+font-weight: 600;
+margin-top: 15px;
+}
+.tours-online2{
+display:flex;
+justify-content: center;
+align-items: center;
+width: 60px;
+height: 55px;
+background-color: rgb(55, 233, 194);   
+margin-top: 15px; 
+}
+.middle{
+height: 50px;
+width: 1px;
+background-color: gray;
+margin: 20px;
+}
+.long-line{
+height: 1px;
+width: 100%;
+background-color: gray;
+}
+.menu{
+font-family: Montserrat;
+font-weight: 600;
+display: flex;
+justify-content: space-around;
+padding-top: 20px;
+}
+.content{
+background-size: cover;
+background: center center no-repeat;
+position: relative;
+text-align: center;
+color: white;
+font-weight: 400;
+font-family: Montserrat;
+}
+
+.foto
+    {
+    background:white,url="file:///C:/Users/1/Desktop/kfund/beach.jpg",center center no-repeat;
+    opacity: 100%;
+    max-width: 100%;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    z-index: 1;
+    display: flex;
+    flex-direction: none;
+}
+.evro300{
+    position: absolute;
+    bottom: 450px;
+    left: 250px;
+    border: solid white 2px;
+    font-size:35px;
+}
+.new-hotel{
+    position: absolute;
+    bottom: 300px;
+    left: 250px;
+    font-size:35px;
+    width: 50%;
+    text-align: left;
+}
+.semi-transparent-button {
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 8px;
+    width: 80%;
+    max-width: 250px;
+    height: 45px;
+    max-height: 50px;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+    position: absolute;
+    bottom: 200px;
+    left: 250px;
+    text-align:center;
+  }
+  .elipse{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    opacity: 0.6;
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+    box-sizing: border-box;
+    bottom: 150px;
+    left: 250px;
+    justify-content: space-around;
+  }
+  .elipse2{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    opacity: 0.9;
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+    box-sizing: border-box;
+    bottom: 150px;
+    left: 270px;
+    justify-content: space-around;
+  }
+  .elipse3{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    opacity: 0.6;
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+    box-sizing: border-box;
+    bottom: 150px;
+    left: 290px;
+    justify-content: space-around;
+  }.elipse4{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    opacity: 0.6;
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+    box-sizing: border-box;
+    bottom: 150px;
+    left: 310px;
+    justify-content: space-around;
+  }.elipse5{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    opacity: 0.6;
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+    box-sizing: border-box;
+    bottom: 150px;
+    left: 330px;
+    justify-content: space-around;
+  }
+.navigation{
+font-family: Montserrat;
+width: 100%;
+max-height: 1920px;
+min-width: none;
+height: 360px;
+background-color:rgb(230, 230, 230);
+}
+.tour{
+position: relative;
+text-align: left;
+font-weight: 600;
+font-size: 30px;
+top: 100px;
+left: 200px;
+width: 40%;
+}
+.travel-world{
+    position: relative;
+    text-align: left;
+    font-weight: 300;
+    font-size: 20px;
+    top: 180px;
+    left: 200px;
+    width: 40%;
+    color: rgb(164, 164, 164)133, 133
+  }
+.offer{
+left:200px;
+border:solid 2px rgb(177, 177, 177);
+background-color: rgb(177, 176, 176);
+color:white;
+width: 200px;
+height: 35px;
+position: absolute;
+display: block;
+box-sizing: border-box;
+top: 1000px;
+}
+.consultation{
+  left:430px;
+  border:solid 2px rgb(177, 177, 177);
+  background-color:white;
+  color: rgb(177, 176, 176);
+  font-weight: 600;
+  width: 200px;
+  height: 35px;
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  top: 1000px;
+}
+.individual-service{
+  left:950px;
+  top:840px;
+  position: absolute;
+  display: block;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size:x-large;
+}
+.dashed-elipse{
+  width: 45px;
+  height: 45px;
+  border: 1.2px dashed #000000;
+  border-radius: 50%;
+  box-sizing: border-box;
+  left:900px;
+  top:840px;
+  position: absolute;
+  display: block;
+}.house-service{
+  left:950px;
+  position: absolute;
+  display: block;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size:x-large;
+  box-sizing: border-box;
+  top: 900px;
+}
+.dashed-elipse2{
+  left:900px;
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  top: 900px;
+}
+.premium-rest{
+  left:950px;
+  position: absolute;
+  display: block;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size:x-large;
+  box-sizing: border-box;
+  top: 965px;
+}
+.dashed-elipse3{
+  left:900px;
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  top: 965px;
+}
+.best-hotels{
+font-family: Montserrat;
+width: 100%;
+height: 100px;
+max-height: 1250px;
+padding-top: 50px;
+display: inline-block;
+}
+.best-hotel-caption{
+font-size:35px;
+display: block;
+position: absolute;
+left: 200px;
+}
+.left-circle{
+border: solid 1px black;
+border-radius: 50%;
+height: 40px;
+width: 40px;
+left: 600px;
+position: absolute;
+}
+.left-arrow{
+left: 7px;
+top: 10px;
+transform: rotate(-180deg);
+position: absolute;}
+.right-circle{
+  border: solid 1px black;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  left: 650px;
+  position: absolute;
+}
+.right-arrow{
+  left: 7px;
+  top:7px;
+  position: absolute;
+}
+.long-line{
+border:solid 1px black;
+width: 300px;
+left:750px;
+position: absolute;
+top: 1210px;
+}
+.all-hotels{
+  border:solid 2px rgb(177, 177, 177);
+  background-color:white;
+  color: rgb(177, 176, 176);
+  font-weight: 600;
+  width: 200px;
+  height: 35px;
+  position: absolute;
+  display: block;
+  left:350px;
+  
+}
+.all-hotels-card-group{
+display: flex;
+justify-content: space-around;
+}
+.img{
+width:100%;
+height: 450px;
+}
+div#tekst_sverhu_kartinki {
+position: relative;
+width: 450px;
+}
+.tekst_sverhu_kartinki{
+position: absolute; 
+text-transform: uppercase;
+color: white;
+top: 250px;
+left: 150px;
+text-align: center;
+font:Montserrat
+}
+.stars{
+position: absolute;
+justify-content: center;
+align-items: center;
+left:200px;
+bottom: 220px;
+}
+.img2{
+width: 450px;
+height: 450px;
+  }
+.div#tekst_sverhu_kartinki2{
+position: relative; 
+}
+.tekst_sverhu_kartinki2{
+position: absolute;
+top: 55%;
+left:55px;
+text-transform: uppercase;
+color: white;
+width: 350px;
+padding: 10px;
+text-align: center;
+font:Montserrat
+}
+.stars2{
+position: absolute;
+left: 160px;
+bottom: 200px;
+}
+.img3{
+  width: 450px;
+  height: 450px;
+  ;}
+  .div#tekst_sverhu_kartinki3{
+  position: relative; 
+  }
+  .tekst_sverhu_kartinki3{
+  position: absolute;
+  top: 55%;
+  left:55px;
+  text-transform: uppercase;
+  color: white;
+  width: 350px;
+  padding: 10px;
+  text-align: center;
+  font:Montserrat
+  }
+  .stars3{
+  position: absolute;
+  left: 160px;
+  bottom: 200px;
+  }
+.actual-tours{
+width: 100%;
+height: 500px;
+display: flex;
+position: absolute;
+padding-top: 100px;
+}
+.long-line2{
+  border:solid 0.5px black;
+  width: 400px;
+  position: absolute;
+  left: 500px;
+  top:20px;
+}
+.caption-tours{
+text-transform: uppercase;
+font-size: 35px;
+font-family: Montserrat;
+position: absolute;
+width:450px;
+height:100px;
+}
+.all-tours{
+
+border:solid 2px rgb(177, 177, 177);
+background-color:white;
+color: rgb(177, 176, 176);
+font-weight: 600;
+width: 200px;
+height: 35px;
+position: absolute;
+}
+.card{
+width: 450px;
+height: 350px;
+padding-right: 100px;
+display:flex;
+
+}
+.card-deck{
+display:flex;
+font-family: Montserrat;
+left: 100px;
+position: relative;
+width: 100%;
+height: 500px;
+}
+.card-title{
+font-size: 20px;
+text-align:left;
+width: 350px;
+}
+.card-text{
+font-size: 15px;
+text-align:left;
+width: 350px;
+padding-top: 40px;
+}
+.card-img-top{
+width: 350px;
+height: 300px;
+}
+.card-footer{
+width: 350px;
+}
+.card-body{
+background: rgb(238, 238, 238);
+width: 350px;
+height: 200px;
+}
+.text-muted{
+display:flex;
+color: rgb(159, 41, 41);
+padding-top: 20px;
+width: 200px;
+}
+.description{
+font-size: 10px;
+color: rgb(120, 120, 120);
+}
+.date{
+width: 20px;
+text-align: right;
+font-size: 10px;
+color: rgb(169, 169, 169);
+}
+*,
+*:before,
+*::after{
+    box-sizing: border-box;
+}
+.header{
+padding: 35px ;
+}
+.nav{
+display: flex;
+font-size: 35px;
+font-weight: 700;
+text-decoration: none;}
+
+.nav_link{
+color:gainsboro;
+border: 2px solid gainsboro;
+text-decoration: none;
+opacity: 0.75;
+transition: opacity .1s linear;
+padding: 10px;
+}
+
+.nav_link:hover{
+opacity: 1;
+
+}
+.container-news{
+width: 100%;
+max-width: 1920px;
+margin: auto 0;}
+
+.container-mini-news{
+width: 80%;
+margin:0 auto;
+display:flex;
+flex-direction:column;
+font-family: Montserrat;
+height: 1000px;}
+.container_inner-news{
+
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 35px 0;
+align-items: center;
+}
+.container-title-news{
+    font-size: 55px;
+    font-weight: 700;
+}
+.line-news{
+height: 3px;
+width: 30%;
+background-color: rgb(92, 14, 14);
+}
+
+.card-deck-news{
+display: flex;
+justify-content: space-between;
+text-align: center;
+}
+.card-news{
+    width: 20%;
+    background-color: indigo;
+    height: 10px;
+}
+.foto-news {
+    border: 1px solid gray;
+    width: 300px;
+    height: 300px;
+    position: relative;
+  }
+  .foto-news>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .card-text-news{
+text-align: left;
+}
+.card-footer-news{
+text-align:left;
+text-decoration: underline;
+}
+.card-footer-news:hover{
+color: red;
+text-decoration: underline;
+}
+.card-title-news{
+text-align: left;
+color: gray;
+}
+
+.actual-tours-body{
+  margin: 0;
+  font-size: 24px;
+  font-family: Montserrat;
+  }
+  *,
+  *:before,
+  *::after{
+      box-sizing: border-box;
+  }
+  .actual-tours-header{
+  padding: 35px ;
+  }
+  .actual-tours-nav{
+  display: flex;
+  font-size: 35px;
+  font-weight: 700;
+  text-decoration: none;}
+  
+  .actual-tours-link{
+  color:gainsboro;
+  border: 2px solid gainsboro;
+  text-decoration: none;
+  opacity: 0.75;
+  transition: opacity .1s linear;
+  padding: 10px;
+  }
+  
+  .actual-tours-link:hover{
+  opacity: 1;
+  
+  }
+  .actual-tours-container{
+  width: 100%;
+  height: 600px;
+  max-width: 1920px;
+  margin: auto 0;}
+  
+  .actual-tours-container-mini{
+      width: 82%;
+      margin:0  auto ;
+      display:flex;
+  flex-direction:column;
+      }
+  .actual-tours-container-inner{
+  
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 35px 0;
+  align-items: center;
+  }
+  .actual-tours-container-title{
+      font-size: 40px;
+      font-weight: 700;
+  }
+  .actual-tours-line{
+  height: 3px;
+  width: 50%;
+  background-color: rgb(92, 14, 14);
+  }
+  
+  .actual-tours-card-deck{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  }
+  .actual-tours-card{
+      width: 22%;
+      height: 400px;
+      
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+      
+  }
+  .actual-tours-foto {
+      border: 1px solid gray;
+      width: 100%;
+      height: 190px;
+      position: relative;
+    }
+    
+    .actual-tours-foto>img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  .actual-tours-card-body{
+  display: block;
+  }
+    .actual-tours-card-text{
+  text-align: left;
+  }
+  .actual-tours-card-footer{
+  text-align:left;
+  }
+  .actual-tours-footer:hover{
+  color: red;
+  text-decoration: underline;
+  }
+  .actual-tours-card-title{
+  color: rgb(0, 0, 0);
+  width: 100%;
+  height: 60px;
+  padding-bottom: 20px;
+  }
+  .actual-tours-arrow{
+  padding-left: 20px;
+  }
+  .actual-tours-arrow:hover{
+  text-decoration: none;
+  }
+  .actual-tours-views{
+  padding-top: 20px;
+  padding-left:5px;
+  font-size: 14px;
+  float: left;
+  height: 80px;
+  text-align: left;
+  color: gray;
+  }
+  .actual-tours-arrows{
+  padding-top:100px;
+  width: 10px;
+  }
+  .actual-tours-text-muted{
+  color: red;
+  width: 100%;
+  float: left;
+  }
+  .actual-tours-text-muted-date{
+  color: grey;
+  font-size: 16px;
+  }
+
+
+
+
+
+
+.breakingnews-body{
+  margin: 0;
+  font-size: 24px;
+  font-family: Montserrat;
+  }
+  *,
+  *:before,
+  *::after{
+      box-sizing: border-box;
+  }
+  .breakingnews-header{
+  padding: 35px ;
+  }
+  .breakingnews-nav{
+  display: flex;
+  font-size: 35px;
+  font-weight: 700;
+  text-decoration: none;}
+  
+  .breakingnews-nav_link{
+  color:rgb(120, 120, 120);
+  border: 2px solid rgb(132, 132, 132);
+  text-decoration: none;
+  opacity: 0.75;
+  transition: opacity .1s linear;
+  padding: 10px;
+  }
+  
+  .breakingnews-nav_link:hover{
+  opacity: 1;
+  
+  }
+  .breakingnews-container{
+  width: 100%;
+  max-width: 1920px;
+  margin: auto 0;
+  background-color: rgb(233, 233, 233);}
+  
+  .breakingnews-container-mini{
+      width: 80%;
+      height: 600px;
+      margin:0  auto ;
+      display:flex;
+  flex-direction:column;
+  font-size: 24px;
+  font-family: Montserrat;
+      }
+  .breakingnews-container_inner{
+  
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 35px 0;
+  align-items: center;
+  }
+  .breakingnews-container-title{
+      font-size: 55px;
+      font-weight: 700;
+  }
+  .breakingnews-line{
+  height: 3px;
+  width: 30%;
+  background-color: rgb(92, 14, 14);
+  }
+  
+  .breakingnews-card-deck{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  }
+  .breakingnews-card{
+      width: 20%;
+      background-color: indigo;
+      height: 10px;
+  }
+  .breakingnews-foto {
+      border: 1px solid gray;
+      width: 300px;
+      height: 300px;
+      position: relative;
+    }
+    .breakingnews-foto>img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .breakingnews-card-text{
+  text-align: left;
+  }
+  .breakingnews-card-footer{
+  text-align:left;
+  text-decoration: underline;
+  }
+  .breakingnews-card-footer:hover{
+  color: red;
+  text-decoration: underline;
+  }
+  .breakingnews-card-title{
+  text-align: left;
+  color: gray;
+  }
+
+
+
+
+  .blog-body{
+    margin: 0;
+    font-size: 24px;
+    font-family: Montserrat;
+    }
+    *,
+    *:before,
+    *::after{
+        box-sizing: border-box;
+    }
+    .blog-header{
+    padding: 35px ;
+    }
+    .blog-nav{
+    display: flex;
+    font-size: 35px;
+    font-weight: 700;
+    text-decoration: none;}
+    
+    .blog-nav_link{
+    color:gainsboro;
+    border: 2px solid gainsboro;
+    text-decoration: none;
+    opacity: 0.75;
+    transition: opacity .1s linear;
+    padding: 10px;
+    }
+    
+    .blog-nav_link:hover{
+    opacity: 1;
+    
+    }
+    .blog-container{
+    width: 100%;
+    max-width: 1920px;
+    margin: auto 0;}
+    
+    .blog-container-mini{
+        width: 82%;
+        height: 600px;
+        margin:0  auto ;
+        display:flex;
+    flex-direction:column;
+        }
+    .blog-container_inner{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 35px 0;
+    align-items: center;
+    }
+    .blog-container-title{
+        font-size: 55px;
+        font-weight: 700;
+    }
+    .blog-line{
+    height: 3px;
+    width: 50%;
+    background-color: rgb(92, 14, 14);
+    }
+    
+    .blog-card-deck{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    }
+    .blog-card{
+        width: 22%;
+        height: 400px;
+        
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+        
+    }
+    .blog-foto {
+        border: 1px solid gray;
+        width: 100%;
+        height: 190px;
+        position: relative;
+      }
+      
+      .blog-foto>img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      .blog-card-text{
+    text-align: left;
+    }
+    .blog-card-footer{
+    text-align:left;
+    }
+    .blog-card-footer:hover{
+    color: red;
+    text-decoration: underline;
+    }
+    .blog-card-title{
+    text-align: left;
+    color: gray;
+    }
+    .blog-arrow{
+    padding-left: 20px;
+    }
+    .blog-arrow:hover{
+    text-decoration: none;
+    }
+    .blog-views{
+    padding-left:5px;
+    color: gray;
+    }
+    .blog-arrows{
+    padding-top:100px;
+    }
+
+
+
+    .form-container{
+      background-color: rgb(235, 86, 86);
+      height: 305px;
+      font-family: Montserrat;
+      
+      }
+      .form-container-title{
+      padding: 55px 100px;
+      font-size: 24px;
+      color: white;
+      width: 50%;
+      
+      }
+      .form-title-info{
+      font-size: 20px;
+      color: white;
+      padding: 55px 100px;
+      width: 40%;
+      }
+      .form-email-form{
+      padding-left: 100px;
+      background-color: rgb(235, 86, 86);
+      width: 410px;
+      height: 55px;
+      }
+      .form-title{
+      display: flex;
+      }
+      .form-form{
+      display:flex;
+      font-family: Montserrat;
+      }
+      .form-radiobutton{
+      display: flex;
+      color: white;
+      font-size: 24px;
+      font-weight: 100;
+      padding-left: 170px;
+      padding-top: 10px;
+      width: 35%;
+      }
+      .form-send{
+      text-align: center;
+      border: solid 1px white;
+      background: white;
+      color:rgb(235, 86, 86);
+      text-decoration: none;
+      width: 237px;
+      height: 50px;
+      }
+
+
+
+      .wsu-container{
+        height: 650px;
+        margin: auto 0;
+        padding-top: 100px;
+        font-family: Montserrat;
+        }
+        .wsu-container-mini{
+        width: 82%;
+        height: 600px;
+        margin:0  auto ;
+        display:flex;
+        flex-direction:column;
+        display: flex;
+        background-color: rgb(248, 248, 248);
+        }
+        .wsu-caption{
+        padding: 25px;
+        font-size: 50px;
+        font-weight: 700;
+        }
+        .wsu-cards-left{
+        width: 45%;
+        height: 500px;
+        margin: 0 auto;
+        float: left;
+        }
+        .wsu-cards-right{
+        width: 45%;
+        height: 500px;
+        float: right;
+        }
+        .wsu-card{
+        display: flex;
+        flex-direction: row;
+        border: rgb(145, 145, 145) 1px solid;
+        background-color: white;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        }
+        .wsu-check{
+        padding-top: 20px;
+        }
+        .wsu-card-text{
+        width: 80%;
+        padding: 20px;
+        }
+        .wsu-card:hover{
+        background-color: rgb(208, 59, 59);
+        color: white;
+        }
+
+        .predstavitel{
+          height: 500px;
+          width: 100%;
+          }
+        .predstavirel-container{
+          position: absolute;
+          width: 100%;
+          height: 500px;
+          font-family: Montserrat;
+          object-fit: cover;
+          background-size: cover;
+          }
+          .predstavirel-foto-container {
+              border: 1px solid gray;
+              width: 100%;
+              height: 500px;
+              position: relative;
+              transform: scale(-1, 1);
+            }
+            
+            .predstavirel-foto-container>img {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+            }
+          .predstavirel-caption{
+          position: absolute;
+          top: 100px;
+          padding-left: 250px;
+          padding-bottom: 20px;
+          width: 50%;
+          font-size: 40px;
+          color: white;
+          }
+          .predstavirel-text{
+          position: absolute;
+          top: 220px;
+          padding-left: 250px;
+          width: 50%;
+          font-size: 15px;
+          color: white;
+          }
+          .predstavirel-info-button{
+          position: absolute;
+          top: 270px;
+          margin-left: 250px;
+          width: 270px;
+          height: 60px;
+          font-size: 15px;
+          color: white;
+          text-decoration: none;
+          background-color: white;
+          border: solid 1px white;
+          color: gray;
+          }
+          .predstavirel-offer{
+          position: absolute;
+          top: 80px;
+          padding-left: 800px;
+          font-size: 15px;
+          width: 150px;
+          height: 130px;
+          }
+          
+
+
+          @font-face {
+            font-family: "Mistral normal";
+            src: url("../fonts/mistral-normal/mistral-normal.eot"); /* IE9 Compat Modes */
+            src: url("../fonts/mistral-normal/mistral-normal.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+              url("../fonts/mistral-normal/mistral-normal.otf") format("opentype"), /* Open Type Font */
+              url("../fonts/mistral-normal/mistral-normal.svg") format("svg"), /* Legacy iOS */
+              url("../fonts/mistral-normal/mistral-normal.ttf") format("truetype"), /* Safari, Android, iOS */
+              url("../fonts/mistral-normal/mistral-normal.woff") format("woff"), /* Modern Browsers */
+              url("../fonts/mistral-normal/mistral-normal.woff2") format("woff2"); /* Modern Browsers */
+            font-weight: normal;
+            font-style: normal;
+          }
+          .premium-rest-container{
+          width: 100%;
+          font-family: Montserrat;
+          height: 800px;
+          }
+          .premium-rest-container-mini{
+              margin: 0 auto;
+              width: 80%;
+              display: block;
+              flex-wrap: wrap;
+          }
+          .premium-rest-content{
+          width: 100%;
+          height: 300px;
+          margin: 0 auto;
+          }
+          .premium-rest-upper-caption{
+          font-family:Mistral;
+          height: 30px;
+          width: 20%;
+          padding-top: 100px;
+          padding-left: 35px;
+          color: rgb(236, 42, 42);
+          }
+          .premium-rest-caption{
+          display: block;
+          width: 800px;
+          padding-top:40px;
+          padding-left: 35px;
+          font-size: 30px;
+          height: 100px;
+          
+          }
+          .premium-rest-specialized{
+          
+          width:15%;
+          float: right;
+          top: 220px;
+          right: 400px;
+          color: #DD4053;
+          font-weight: 600;
+          }
+          .premium-rest-flags{
+          display: flex;
+          justify-content: space-between;
+          margin: 0 auto;
+          width: 80%;
+          flex-wrap: wrap;
+          }
+          .premium-rest-flag-card{
+          width: 230px;
+          height: 205px;
+          background-color: rgb(201, 199, 199);
+          
+          }
+          .premium-rest-flag-foto{
+          width: 100%;
+          height: 120px;
+          }
+          .premium-rest-foto-flag{
+          width: 100%;
+          height: 120px;
+          }
+          .premium-rest-flag-name{
+          text-align: center;
+          font-size: 24px;
+          }
+          .premium-rest-flag-button{
+          text-align: center;
+          width: 100%;
+          height: 25px;
+          display: block;
+          padding-top: 10px;
+          align-items: center;
+          background-color: rgb(201, 199, 199);
+          color: rgb(122, 118, 118);
+          }
+          .premium-rest-flag-button:hover{
+          color: white;
+          background-color: gainsboro;
+          }
+          .premium-rest-flags-footer{
+            padding-top: 50px;
+            margin: 0 auto;
+              width: 80%;
+            height: 200px;
+              display: flex;
+              flex-wrap: wrap;
+          }
+          .premium-rest-flag-description{
+          width: 30%;
+          font-weight: 900;
+          font-size: 20px;
+          }
+          .premium-rest-empty{
+          width: 35%;
+          }
+          .premium-rest-flag-rest-descriotion{
+          width: 30%;
+          height: 70px;
+          font-size: 20px;
+          text-align: center ;
+          border: 1px solid black;}
+
+
+
+          .footer-container{
+            width: 100%;
+            height: 370px;
+            font-family: Montserrat;
+            background-color: rgb(248, 248, 248);
+            }
+            .footer-container-mini{
+            margin: 0 auto;
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-top: 100px;
+            }
+            .footer-info{
+            display: flex;
+            
+            }
+            .footer-foto{
+            padding-right: 50px}
+            
+            .footer-nav-text{
+            text-decoration: none;
+            display: block;
+            }
+            .footer-navigation{
+            padding-right: 50px;
+            }
+            .footer-blog{
+            padding-right: 50px;
+            }
+            .footer-nav{
+            padding-right: 50px;
+            }
+            .footer-time{
+            padding-right: 50px;
+            }
+            .footer-work-time{
+            color: gray;
+            text-transform: uppercase;
+            }
+            .footer-all-contacts{
+            padding-top: 20px;
+            color: gray;
+            }
+            .footer-line{
+            height: 1px;
+            width: 80%;
+            border: 1px solid black;
+            }
+            .footer-line{
+            float: left;
+            }
+            .footer-copyrights{
+            width:65%;
+            color: gray;
+            }
+            .footer-icons{
+            color: gray;
+            }
+   
+
+
